@@ -6,11 +6,17 @@
   "repository": "git@github.com:Sharmaz/graphql-server-learn.git",
   "author": "Ivan Robles <irae45@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "apollo-server-express": "^1.1.0",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "graphql": "^0.10.5",
     "graphql-tools": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
