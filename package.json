@@ -1,0 +1,16 @@
+{
+  "name": "graphql-server-learn",
+  "version": "1.0.0",
+  "description": "learning graphql",
+  "main": "index.js",
+  "repository": "git@github.com:Sharmaz/graphql-server-learn.git",
+  "author": "Ivan Robles <irae45@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^1.1.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.2.1"
+  }
+}
