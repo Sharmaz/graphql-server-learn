@@ -7,7 +7,9 @@
   "author": "Ivan Robles <irae45@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "db:migrate": "knex migrate:latest --knexfile=db/knexfile.js",
+    "db:seed": "knex seed:run --knexfile=db/knexfile.js"
   },
   "dependencies": {
     "apollo-server-express": "^1.1.0",
@@ -15,7 +17,10 @@
     "casual": "^1.5.14",
     "express": "^4.15.4",
     "graphql": "^0.10.5",
-    "graphql-tools": "^1.2.1"
+    "graphql-tools": "^1.2.1",
+    "knex": "^0.13.0",
+    "objection": "^0.8.7",
+    "sqlite3": "^3.1.9"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
